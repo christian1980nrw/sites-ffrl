@@ -1,7 +1,10 @@
 GLUON_SITE_PACKAGES := \
 	gluon-setup-mode \
 	gluon-config-mode-core \
-	gluon-mesh-batman-adv-15 \
+	gluon-mesh-batman-adv-14 \
+#	gluon-mesh-batman-adv-15 \
+# Batman-ADV-15 only for new Domains oder Domainsplits (cannot interact with Batman-ADV-14)
+# If you migrate to Bat15, Mesh-only AP´s have to be migrated first or will be offline
 	gluon-alfred \
 	gluon-announced \
 	gluon-autoupdater \
