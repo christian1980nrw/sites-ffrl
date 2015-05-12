@@ -3,7 +3,7 @@ GLUON_SITE_PACKAGES := \
 	gluon-config-mode-core \
 	gluon-mesh-batman-adv-14 \
 #	gluon-mesh-batman-adv-15 \
-# Batman-ADV-15 only for new Domains or Domainsplits (cannot interact with Batman-ADV-14)
+# Batman-ADV-15 only for new Domains or Domainsplits (cannot interact with Batman-ADV-14) 
 # If you migrate to Bat15, Mesh-only Router have to be migrated first or will stay offline
 	gluon-alfred \
 	gluon-announced \
